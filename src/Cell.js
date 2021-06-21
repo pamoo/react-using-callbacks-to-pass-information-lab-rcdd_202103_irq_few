@@ -8,7 +8,6 @@ import React, { Component } from 'react';
     }
   }
 
-  render() {
    handleClick = () => {
        this.setState({
          color: this.props.selectedColor
